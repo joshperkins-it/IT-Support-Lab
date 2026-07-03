@@ -1,17 +1,17 @@
-Windows 10 Virtual Machine Lab
-Setup
-Installed VirtualBox on macOS Intel.
-Created a new virtual machine with Windows 10 64-bit.
-Allocated 4096 MB of RAM and 50 GB of storage.
-Attached Windows 10 ISO and completed installation.
-Selected offline account setup.
-Practice Completed
-Navigated file system using File Explorer.
-Created, moved, and deleted files and folders.
-Checked system information by right clicking Start and clicking System.
-Opened Command Prompt and ran ipconfig, ping google.com, and systeminfo.
-Created a new user account under Settings then Accounts.
-Opened Task Manager using Ctrl Alt Delete and reviewed running processes and performance.
-Opened Device Manager by right clicking Start to identify hardware components.
-Screenshots
-See screenshots uploaded in this folder.
+# Windows 10 Virtual Machine Lab
+
+## Setup
+Installed VirtualBox on macOS and created a Windows 10 VM (4GB RAM, 50GB storage). Used an ISO for installation and set up an offline account.
+
+## Practice
+- Navigated the file system with File Explorer.  
+- Created, moved, and deleted files/folders.  
+- Ran `ipconfig`, `ping google.com`, and `systeminfo` in Command Prompt.  
+- Created a new user account under Settings.  
+- Checked Task Manager and Device Manager for processes and hardware.
+
+## Notes
+The VM ran slowly until I increased RAM. Networking worked fine once I confirmed the adapter settings.  
+
+## What I Learned
+This lab helped me get comfortable with basic Windows troubleshooting and confirmed how useful Device Manager is for hardware checks.

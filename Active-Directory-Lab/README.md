@@ -1,25 +1,18 @@
-Active Directory Lab
-Setup
-Created free AWS account.
-Launched Windows Server 2019 EC2 instance using t2.micro.
-Connected via RDP using Microsoft Remote Desktop on macOS.
-Ran PowerShell command to install Active Directory Domain Services:
-Install-WindowsFeature -Name AD-Domain-Services -IncludeManagementTools
-Promoted server to domain controller using:
-Install-ADDSForest -DomainName "lab.local"
-Server restarted and domain controller confirmed active.
-Practice Completed
-Opened Active Directory Users and Computers.
-Created new user accounts following naming conventions.
-Set temporary passwords with must change at next login enabled.
-Disabled and re-enabled user accounts.
-Reset user passwords.
-Created security groups and added users to groups.
-Deleted test user accounts.
-Key Skills Demonstrated
-User provisioning and deprovisioning
-Password reset procedures
-Account lockout resolution
-Group management and access control
-Screenshots
-See screenshots uploaded in this folder.
+# Active Directory Lab
+
+## Setup
+Launched a Windows Server 2019 EC2 instance (t2.micro) and connected via RDP. Installed AD Domain Services with PowerShell and promoted the server to a domain controller (`lab.local`).
+
+## Practice
+- Created new user accounts with naming conventions.  
+- Set temporary passwords with “must change at next login.”  
+- Disabled and re-enabled accounts.  
+- Reset passwords and unlocked accounts.  
+- Created security groups and added users.  
+- Deleted test accounts.
+
+## Notes
+Running the PowerShell commands felt straightforward once I remembered to use admin privileges. Creating groups first made it easier to manage permissions.
+
+## What I Learned
+This lab showed me how AD handles user provisioning and password resets. It gave me a better sense of how group membership controls access.

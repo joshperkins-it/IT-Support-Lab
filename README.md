@@ -23,14 +23,15 @@ Launched a Windows Server 2019 EC2 instance on AWS. Promoted it to a domain cont
 3. Help Desk Ticketing Lab
 
 Set up a Spiceworks Cloud help desk. Created and resolved 10 realistic IT support tickets covering password resets, printer issues, network connectivity, account lockouts, software installation, email troubleshooting, display issues, and hardware problems. Documented each ticket with full troubleshooting steps and resolutions.
-Skills Demonstrated
-Active Directory user and group management
-Password resets and account unlocks
-Network troubleshooting using ipconfig and ping
-Print spooler troubleshooting
-Hardware identification using Device Manager
-Help desk ticket documentation and resolution
-Windows OS navigation and configuration
+
+Skills Demonstrated:
+- Active Directory user and group management
+- Password resets and account unlocks
+- Network troubleshooting using ipconfig and ping
+- Print spooler troubleshooting
+- Hardware identification using Device Manager
+- Help desk ticket documentation and resolution
+- Windows OS navigation and configuration
 
 Why I Built This
 
